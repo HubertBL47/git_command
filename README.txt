@@ -13,5 +13,5 @@
 git config --get remote.origin.url
 
 #extract file from git stash
-git diff stash@{0}^1 stash@{0} -- <filename>
+git checkout stash@{0} -- <filename>
 
